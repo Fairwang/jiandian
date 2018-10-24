@@ -1,8 +1,8 @@
 #!/user/bin/python
 # -*-coding:utf-8-*-
 from appium import webdriver
-from jiandiandenglu.common import  driver_config,gesture_mainpulation,query_database
-from jiandiandenglu.LK import creat_page
+from jiandian.common import  driver_config,gesture_mainpulation,query_database
+from jiandian.LK import creat_page
 from selenium.webdriver.common.by import By
 # from selenium import webdriver
 import unittest

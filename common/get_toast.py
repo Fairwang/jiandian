@@ -10,7 +10,6 @@ class get_toast():
     def __init__(self,driver):
         self.driver=driver
     def get_toast(self,message):
-        # self.driver=driver
         try:
             logging.info("need find is:%s" % (message))
             message='//*[@text=\'{}\']'.format(message)

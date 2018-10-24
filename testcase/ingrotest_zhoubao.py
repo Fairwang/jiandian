@@ -4,11 +4,11 @@
 from appium import webdriver
 # from selenium import webdriver
 import unittest
-from jiandian import chaxunshujuku, swipefengzhuang
+# from jiandian import chaxunshujuku, swipefengzhuang
 import time
 import logging
-from jiandiandenglu.common import driver_config,gesture_mainpulation,get_toast,query_database
-from jiandiandenglu.LK import creat_page
+from jiandian.common import driver_config,gesture_mainpulation,get_toast,query_database
+from jiandian.LK import creat_page
 from selenium.webdriver.common.by import By
 logging.getLogger().setLevel(logging.INFO)
 from appium.webdriver.mobilecommand import MobileCommand

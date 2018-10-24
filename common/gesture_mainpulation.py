@@ -4,7 +4,7 @@
 from appium import webdriver
 
 
-class gesture_mainpulation:
+class gesture_mainpulation():
 
     def swipeRight(self,driver):
         x = driver.get_window_size()['width']

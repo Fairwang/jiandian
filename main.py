@@ -29,7 +29,7 @@ fp.close()
 
 email=send_email.Send_mail()
 
-email.send_mail('D:\\Users\Asus\\PycharmProjects\\untitled1\\jiandiandenglu\\report\\appium_report.html')
+email.send_mail('E:\\Users\msi1\\PycharmProjects\\untitled\\jiandian\\report\\appium_report.html')
 #
 # if __name__=="__main__":
 #     suite = unittest.TestSuite()
